@@ -39,3 +39,4 @@ readFiles(path.join(__dirname, "../", componentUrl), ".less", (file, error) => {
   }
   fs.outputFileSync(file.replace('components', "subComponents"), fs.readFileSync(file));
 });
+
